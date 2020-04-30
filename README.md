@@ -11,4 +11,7 @@ Our team aims to create a basic and simple GitHub project, which includes:
 # Code
 
 # Contributors
- 
+{% for student in _site.stu}
+  * {{ student.image }} @{{student.user}} ({{student.name}})
+  * * {{ student.content }}
+{% endfor %}
