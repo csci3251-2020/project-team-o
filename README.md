@@ -12,6 +12,6 @@ Our team aims to create a basic and simple GitHub project, which includes:
 
 # Contributors
 {% for student in site.stu %}
-  * <img src="{{ student.image }}" style="width: 40px; height: 40px"> @{{student.user}} ({{student.name}})
+  * <img src="{{ student.image }}" style="width: 40px; height: 40px"> @{{student.user}} ({{student.name}}) 
     * {{ student.content }}
 {% endfor %}
