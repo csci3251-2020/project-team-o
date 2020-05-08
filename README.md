@@ -17,3 +17,5 @@ Our team aims to create a basic and simple GitHub project, which includes:
   * <img src="{{ student.image }}" style="width: 40px; height: 40px"> @{{student.user}} ({{student.name}}) 
     * {{ student.content }}
 {% endfor %}
+
+Last updated: {{ site.time }}
